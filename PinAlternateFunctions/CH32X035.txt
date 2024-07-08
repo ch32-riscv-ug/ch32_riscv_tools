@@ -1,0 +1,135 @@
+Alternate 	ADC 	TIM1/2 	TIM3 	USART 	CMP 	SYS 	I2C 	SPI 	USB 	OPA 	PIOC 
+PA0 	A0 	T2C1  		CTS2 	C1P1 						
+		T2C1_2 									
+PA1 	A1 	T2C2  		RTS2  	C1O 					O1N2 	
+		T2C2_2		CTS2_1 						O2N2	
+PA2 	A2 	T2C3  		TX2  	C3N0 					O2O1	
+		T2C3_1 		RTS2_1 							
+		T2ET_5 									
+		T2ET_6									
+PA3 	A3(1) 	T2C4  	T3C1_3 	RX2  						O1O0	
+		T2C4_1 		CTS3_2 							
+PA4 	A4 		T3C2_3 	CK2  				CS 		O2O0	
+				RTS3_2 							
+PA5 	A5 			TX4_1 				SCK 		O2N0	
+				CTS4_4 							
+PA6 	A6 	T1BK_1 	T3C1 	CK4_1 				MISO 		O1N0	
+				RTS4_4 							
+PA7 	A7(1) 	T1C1N_1 	T3C2 	CTS4_1 				MOSI 		O2P0 	
+				TX1_3 							
+PA8 				RTS4  				MISO_1			
+				RTS1_2 							
+				CK4_4 							
+				RTS4_2 							
+				RTS4_5							
+PA9 		T2BK_1 		RX4_1 				MOSI_1 MISO_2			
+		T2BK_3		CTS1_2							
+PA10 				TX1_1 			SCL(1) 	MOSI_2			
+				RX4_3 							
+PA11 				RX1_1 	C2P1 		SDA(1) 	SCK_2			
+PA12 		T2C2_5 			C2P0 			CS_2 			
+		T2C1N_1 									
+		T2C1N_3									
+PA13 		T2C3_5 		RTS4_3 	C3P0 		SCL_1(1)				
+		T2C2N_1 		CTS1_3 							
+		T2C2N_3									
+PA14 		T2C3N_1 		CTS4_3 	C3P1 		SDA_1(1)				
+		T2C3N_3		RTS1_3 							
+PA15 				TX2_2 							
+				TX2_4							
+PA16 				RX2_2 							
+				RX2_4							
+PA17 				CTS2_2 							
+				CTS2_4							
+PA18 		T2ET_1 		TX3_2							
+		T2ET_3 									
+PA19 		T2ET  		RX2_1							
+		T2ET_2 									
+PA20 		T2BK  		TX2_1							
+		T2BK_2 									
+PA21 		T2C1N 		RTS2_2 		RST 					
+PA22 		T2C2N  		CK2_2 	C2NO						
+		T2C2N_2		CK2_4 							
+PA23 		T2C3N  		CK2_1 	C1N1						
+		T2C3N_2 									
+PB0 	A8 	T1C2N_1 		TX4 						O1P0 	
+PB1 	A9 	T1C3N_1 		RX4 						O2N1	
+PB2 				RX1_3 	C2O 						
+				CK4  							
+				CK4_2 							
+				CK4_5							
+PB3 		T2C3_2 		TX3 	C3O 					O2P1 	
+		T2C3_3 									
+		T2C3N_5 									
+		T2C3N_6									
+PB4 		T2C4_2 	T3C1_1 	RX3 						O1P2 	
+		T2C4_3 									
+		T2BK_5 									
+		T2BK_6									
+PB5 		T1BK  	T3C2_1	CK3  						O1O1	
+		T1BK_2 		CK1_2 							
+				CK3_1							
+PB6 		T1C1N  		CTS3 						O1N1	
+		T1C1N_2		CTS3_1 							
+PB7 		T1C2N  		RTS3  		RST(3) 				O2P2 	
+		T1C2N_2		RTS3_1 							
+PB8 		T1C3N  		CK3_2 						O1P1 	
+		T1C3N_2		CK4_3 							
+PB9 		T1C1  		CK1  		MCO 					
+		T1C1_1 		CK1_1 							
+		T1C1_2		TX4_3							
+PB10 		T1C2  		TX1  							
+		T1C2_1 		TX1_2							
+		T1C2_2									
+PB11 		T1C3  		RX1  							
+		T1C3_1 		RX1_2							
+		T1C3_2 									
+		T2C1N_6									
+PB12 		T1C4_2  		CK1_3							
+		T2C2N_5 									
+		T2C2N_6									
+PB13 				TX4_4							
+PB14 				RX3_2							
+PB15 		T2C2_1 		CTS4 				SCK_1			
+		T2C2_3		CTS4_2 							
+				CTS4_5							
+PB16 		T2C1_4 		TX3_3							
+PB17 		T2C2_4 		RX3_3							
+PB18 		T2C3_4 		CTS3_3							
+PB19 		T2C4_4 		RTS3_3							
+PB20 				CK2_3							
+PB21 		T2C1_1 		RTS4_1 				CS_1 			
+		T2C1_3 									
+PC0 	A10 	T1C1_3 		TX2_3							
+		T2C4_5 									
+		T2C4_6 									
+		T2BK_4									
+PC1 	A11(1) 	T1C2_3  		RX2_3							
+		T2C1N_4 									
+PC2 	A12 	T1C3_3  		CTS2_3							
+		T2C2N_4 									
+PC3 	A13 	T1C4_3  		RTS2_3 	C1NO 	RST(2)					
+		T2C3N_4 		RTS2_4	C2N1 						
+		T2C1N_2			C3N1						
+PC4 		T1BK_3 						CS_3 			
+		T2ET_4 									
+PC5 		T1C1N_3 						SCK_3			
+PC6 		T1C2N_3 						MISO_3			
+PC7 		T1C3N_3 						MOSI_3 			PIOC_IO0_1
+PC14 		T1C3_4 							CC1 		
+		T2C2_6 									
+PC15 		T1ET_4 							CC2 		
+		T2C3_6 									
+PC16 		T1C4  		CTS1 			SCL_2(1) SDA_4(1) 		UDM		
+		T1C4_1		CTS1_1 							
+				TX4_2 							
+				RX4_5							
+PC17 		T1ET 		RTS1 			SDA_2(1) 		UDP 		
+		T1ET_1 		RTS1_1 			SCL_4(1)				
+				RX4_2 							
+				TX4_5							
+PC18 		T1ET_2 	T3C2_2 	TX3_1 		DIO 	SDA_3(1) SCL_5(1) 				PIOC_IO0 
+		T1ET_3  									
+		T2C1N_5									
+PC19 		T2C1_5 	T3C1_2 	RX3_1 	C1P0 	DCK 	SCL_3(1) SDA_5(1) 				PIOC_IO1 
+		T2C1_6 		RX4_4 							
