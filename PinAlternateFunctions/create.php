@@ -107,7 +107,6 @@ echo <<<EOT
 
 <body>
     <h1>CH32 RISC-V Pin Alternate Functions</h1>
-    <button type="button">Update</button>
     <table>
 
 EOT;
